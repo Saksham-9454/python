@@ -1,0 +1,23 @@
+tuple1=(1,2,3,4,5,6,7,7,7,4,4,5,5,6,6,)
+tuple2=("Red","Green","Blue")
+print(tuple1)
+print(tuple2)
+details= ("saksham",18,"PrOGrammer",9.8)
+print(details)
+country=("spain", "Itly", "India", "America","korea","japan","china","South america")
+print(country[0])
+print(country[2])
+print(country[3])
+print(country[1])
+print(country[-1])
+print(country[-3])
+#chcke for item
+print("Check for item is tuple")
+if "germany" in country:
+    print("Germany is country")
+else:
+    print("Germany is not in country")
+print(country[2:5])
+print(country[-6:-1])
+print(country[2:5:2])
+print(country[-6:-1:3])
